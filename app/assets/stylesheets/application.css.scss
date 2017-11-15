@@ -20,3 +20,26 @@
 h1, h2, h3 {
     font-family: "Montserrat", sans-serif;
 }
+
+body {
+    background: #E44D26;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F16529, #E44D26);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.navbar {
+    /* Gradient provided by @_ighosh at uiGradients.com */
+background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border: none;
+}
+
+.navbar .navbar-brand{
+    color:#e44d26;
+}
+
+.navbar .navbar-about-us{
+    color:#e44d26 !important;
+}
