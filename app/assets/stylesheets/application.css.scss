@@ -37,13 +37,23 @@ body {
 }
 
 .navbar .navbar-brand{
-    color:#e44d26;
+    color:#e44d26 
 }
 
-.navbar .navbar-about-us{
-    color:#e44d26 !important;
+.navbar .navbar-nav .navbar-about-us{
+    color:#e44d26
 }
-    
+
+.navbar .navbar-brand:hover{
+    color: #F16529;
+    opacity: 1
+}
+
+.navbar .navbar-nav .navbar-about-us:hover{
+    color: #F16529;
+    opacity: 1
+}
+
 .home-callout{
     color: #e44d26;
     margin-top: -20px;
