@@ -17,6 +17,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/*Typography Styles*/
 h1, h2, h3 {
     font-family: "Montserrat", sans-serif;
 }
@@ -27,7 +28,7 @@ body {
     background: linear-gradient(to right, #F16529, #E44D26); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
+/*Nav Styles*/
 .navbar, .home-callout {
     /* Gradient provided by @_ighosh at uiGradients.com */
     background: #000000;  /* fallback for old browsers */
@@ -36,24 +37,19 @@ body {
     border: none;
 }
 
-.navbar .navbar-brand{
-    color:#e44d26 
-}
-
+.navbar .navbar-brand,
 .navbar .navbar-nav .navbar-about-us{
     color:#e44d26
 }
 
-.navbar .navbar-brand:hover{
-    color: #F16529;
-    opacity: 1
-}
 
+.navbar .navbar-brand:hover,
 .navbar .navbar-nav .navbar-about-us:hover{
     color: #F16529;
     opacity: 1
 }
 
+/*Homepage Styles*/
 .home-callout{
     color: #e44d26;
     margin-top: -20px;
