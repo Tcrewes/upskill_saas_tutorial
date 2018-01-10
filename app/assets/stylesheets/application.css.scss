@@ -28,12 +28,12 @@ body {
 }
 
 
-.navbar {
+.navbar, .home-callout {
     /* Gradient provided by @_ighosh at uiGradients.com */
-background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-border: none;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
 }
 
 .navbar .navbar-brand{
@@ -42,4 +42,11 @@ border: none;
 
 .navbar .navbar-about-us{
     color:#e44d26 !important;
+}
+    
+.home-callout{
+    color: #e44d26;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
 }
